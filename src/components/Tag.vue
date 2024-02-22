@@ -15,7 +15,6 @@ defineProps({
 
 <style scoped>
 .badge{
-  border: 1px solid #333;
   border-radius: 4px;
   font-size: 0.7em;
   padding: 2px 4px;
