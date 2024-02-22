@@ -14,10 +14,11 @@
 <script setup lang="ts">
 import Content from './Content.vue';
 import Footer from './Footer.vue';
+import { type PropType } from 'vue';
 
 defineProps({
   text: {
-    type: Array as PropType<String[]>,
+    type: Array as PropType<string[]>,
     default: []
   },
 })

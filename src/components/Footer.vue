@@ -12,11 +12,11 @@
 
 <script setup lang="ts">
 import Tag from './Tag.vue';
-import { PropType } from 'vue';
+import { type PropType } from 'vue';
 
 defineProps({
   text: {
-    type: Array as PropType<String[]>,
+    type: Array as PropType<string[]>,
     default: []
   }
 })
