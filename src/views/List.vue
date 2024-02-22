@@ -1,10 +1,8 @@
 <template>
   <div class="list-container">
-    <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">文章</span>
-      </div>
-    </nav>
+    <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">文章</span>
+    </div>
     <Card 
       :text="['美文', '故事', '精選優質']"
     />
