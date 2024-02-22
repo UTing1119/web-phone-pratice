@@ -1,5 +1,5 @@
 <template>
-	<div class="container">
+	<div class="container-subtitle">
 		<div class="avator"></div>
 		<span class="p-2 name">name</span>
 		<span class="p-2 date">2024-02-22</span>
@@ -19,12 +19,12 @@
 	border-radius: 100px;
 }
 
-.container{
+.container-subtitle{
 	display: flex;
 	flex-direction: row;
 	justify-content: start;
 	align-items: center;
-	gap: 8px;
+	gap: 2px;
 }
 
 .name{
